@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+}
+
+.gridContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.pathFinder__Grid {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+}
+
+.pathFinder__Row {
+  display: flex;
+}
